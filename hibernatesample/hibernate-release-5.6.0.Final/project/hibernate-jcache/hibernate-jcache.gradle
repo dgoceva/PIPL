@@ -1,0 +1,14 @@
+description = 'Integration for javax.cache into Hibernate as a second-level caching service'
+
+apply from: rootProject.file( 'gradle/published-java-module.gradle' )
+
+
+dependencies {
+    compile project( ':hibernate-core' )
+    compile( libraries.jcache )
+
+    testCompile project( ':hibernate-testing' )
+    testCompile( libraries.mockito )
+    testCompile( libraries.mockito_inline )
+    testRuntime( libraries.ehcache3 )
+}

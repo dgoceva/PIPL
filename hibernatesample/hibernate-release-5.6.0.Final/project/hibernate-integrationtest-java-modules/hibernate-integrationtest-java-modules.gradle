@@ -1,0 +1,31 @@
+/*
+ * Hibernate, Relational Persistence for Idiomatic Java
+ *
+ * License: GNU Lesser General Public License (LGPL), version 2.1 or later.
+ * See the lgpl.txt file in the root directory or <http://www.gnu.org/licenses/lgpl-2.1.html>.
+ */
+
+description = 'Integration tests for running Hibernate ORM in the Java module path'
+
+apply from: rootProject.file( 'gradle/java-module.gradle' )
+
+// See https://docs.gradle.org/6.7.1/userguide/java_testing.html#blackbox_integration_testing
+// See https://docs.gradle.org/6.7.1/samples/sample_java_modules_multi_project_with_integration_tests.html
+java {
+	modularity.inferModulePath = true
+}
+
+// Checkstyle fails for module-info
+checkstyleMain.exclude '**/module-info.java'
+
+dependencies {
+	testCompile( project( ':hibernate-core' ) )
+	testCompile( project( ':hibernate-envers' ) )
+	testCompile( libraries.jpa )
+	testCompile( libraries.junit )
+}
+
+test {
+	useJUnit()
+}
+

@@ -1,0 +1,21 @@
+= 5.6 Migration Guide
+:toc:
+
+This guide discusses migration from Hibernate ORM version 5.5 to version 5.5.
+
+For migration from other versions, see https://github.com/hibernate/hibernate-orm/wiki/Migration-Guides .
+
+== Known changes
+
+This version is very similar to Hibernate ORM 5.5, with the exception of having removed some long standing deprecated features.
+
+=== Javassist removed
+
+It is no longer an option to choose Javassist as implementation used for the bytecode enhancement of entities.
+Byte Buddy has been the default for some time, and Javassist has been deprecated for some time and now has been removed.
+
+This should have no functional impact on applications; the only exception being that it's not longer valid to
+configure `hibernate.bytecode.provider=javassist`: remove the property if you're using this.
+
+A side effect is that Hibenate ORM no longer lists javassist among its dependencies.
+
