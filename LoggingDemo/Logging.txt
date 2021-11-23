@@ -1,0 +1,22 @@
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+SEVERE: Severe Log 1
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+SEVERE: Severe Log 2
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+WARNING: Warning Log 2
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+INFO: Info Log 2
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+SEVERE: Severe Log 3
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+WARNING: Warning Log 3
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+INFO: Info Log 3
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+CONFIG: Config Log 3
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+FINE: Fine Log 3
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+FINER: Finer Log 3
+Dec 16, 2020 12:04:29 PM LoggingMain doSomethingAndLog
+FINEST: Really not important 3

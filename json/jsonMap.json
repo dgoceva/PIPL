@@ -1,0 +1,26 @@
+{
+  "key1" : "value1",
+  "key2" : "value3",
+  "key3" : "value3",
+  "booleanTrue" : true,
+  "booleanFalse" : false,
+  "array" : [ "1", "2", "3" ],
+  "arrayOfObjects" : [ {
+    "name" : "dani",
+    "avMark" : 3.45,
+    "studentID" : 1
+  }, {
+    "name" : "ivan",
+    "avMark" : 5.35,
+    "studentID" : 2
+  } ],
+  "nestedObject" : {
+    "name" : "dani",
+    "avMark" : 4.44,
+    "studentID" : 1
+  },
+  "integer" : 1,
+  "valueNull" : null,
+  "list" : [ 1, 2, 3 ],
+  "date" : "2019-01-01T14:55:58.012"
+}

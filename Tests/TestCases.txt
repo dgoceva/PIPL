@@ -1,0 +1,335 @@
+Case=Case 1
+input=﻿12
+km
+ft
+output=﻿39370.0788 ft
+Case=Case 2
+input=﻿150
+mi
+in
+output=﻿9503999.99393599 in
+Case=Case 3
+input=﻿1755.50
+cm
+yd
+output=﻿19.1983814815 yd
+Case=Case 4
+input=﻿5.25
+m
+m
+output=﻿5.25 m
+Case=Case 5
+input=﻿10.5
+m
+mm
+output=﻿10500 mm
+Case=Case 6
+input=﻿15.75
+m
+cm
+output=﻿1575 cm
+Case=Case 7
+input=﻿91721
+m
+mi
+output=﻿56.992787101432 mi
+Case=Case 8
+input=﻿26.25
+m
+in
+output=﻿1033.464565875 in
+Case=Case 9
+input=﻿923731.5
+m
+km
+output=﻿923.7315 km
+Case=Case 10
+input=﻿36.75
+m
+ft
+output=﻿120.570866325 ft
+Case=Case 11
+input=﻿42
+m
+yd
+output=﻿45.9317586 yd
+Case=Case 12
+input=﻿8247.254
+mm
+m
+output=﻿8.247254 m
+Case=Case 13
+input=﻿52.5
+mm
+mm
+output=﻿52.5 mm
+Case=Case 14
+input=﻿57.75
+mm
+cm
+output=﻿5.775 cm
+Case=Case 15
+input=﻿1323263.45
+mm
+mi
+output=﻿0.822237787256532 mi
+Case=Case 16
+input=﻿68.25
+mm
+in
+output=﻿2.687007871275 in
+Case=Case 17
+input=﻿832773.5
+mm
+km
+output=﻿0.8327735 km
+Case=Case 18
+input=﻿23478.75
+mm
+ft
+output=﻿77.030019802125 ft
+Case=Case 19
+input=﻿44184
+mm
+yd
+output=﻿48.3202100472 yd
+Case=Case 20
+input=﻿889.25
+cm
+m
+output=﻿8.8925 m
+Case=Case 21
+input=﻿94.5
+cm
+mm
+output=﻿945 mm
+Case=Case 22
+input=﻿99.75
+cm
+cm
+output=﻿99.75 cm
+Case=Case 23
+input=﻿48762105
+cm
+mi
+output=﻿302.993673082792 mi
+Case=Case 24
+input=﻿110.25
+cm
+in
+output=﻿43.40551176675 in
+Case=Case 25
+input=﻿445115.5
+cm
+km
+output=﻿4.451155 km
+Case=Case 26
+input=﻿120.75
+cm
+ft
+output=﻿3.96161417925 ft
+Case=Case 27
+input=﻿126
+cm
+yd
+output=﻿1.377952758 yd
+Case=Case 28
+input=﻿131.25
+mi
+m
+output=﻿211226.400080678 m
+Case=Case 29
+input=﻿6.5
+mi
+mm
+output=﻿10460736.0039955 mm
+Case=Case 30
+input=﻿1.75
+mi
+cm
+output=﻿281635.200107571 cm
+Case=Case 31
+input=﻿147
+mi
+mi
+output=﻿147 mi
+Case=Case 32
+input=﻿2.25
+mi
+in
+output=﻿142559.99990904 in
+Case=Case 33
+input=﻿157.5
+mi
+km
+output=﻿253.471680096814 km
+Case=Case 34
+input=﻿2.75
+mi
+ft
+output=﻿14520.0000276163 ft
+Case=Case 35
+input=﻿168
+mi
+yd
+output=﻿295680.000562369 yd
+Case=Case 36
+input=﻿173.25
+in
+m
+output=﻿4.40055000448856 m
+Case=Case 37
+input=﻿178.5
+in
+mm
+output=﻿4533.90000462458 mm
+Case=Case 38
+input=﻿183.75
+in
+cm
+output=﻿466.725000476059 cm
+Case=Case 39
+input=﻿9557189
+in
+mi
+output=﻿150.839472949778 mi
+Case=Case 40
+input=﻿194.25
+in
+in
+output=﻿194.25 in
+Case=Case 41
+input=﻿76321199.5
+in
+km
+output=﻿1938.55846927733 km
+Case=Case 42
+input=﻿204.75
+in
+ft
+output=﻿17.0625000433388 ft
+Case=Case 43
+input=﻿210
+in
+yd
+output=﻿5.83333334815 yd
+Case=Case 44
+input=﻿215.25
+km
+m
+output=﻿215250 m
+Case=Case 45
+input=﻿0.625
+km
+mm
+output=﻿625000 mm
+Case=Case 46
+input=﻿5.75
+km
+cm
+output=﻿575000 cm
+Case=Case 47
+input=﻿231
+km
+mi
+output=﻿143.536745352 mi
+Case=Case 48
+input=﻿6.25
+km
+in
+output=﻿246062.991875 in
+Case=Case 49
+input=﻿241.5
+km
+km
+output=﻿241.5 km
+Case=Case 50
+input=﻿246.75
+km
+ft
+output=﻿809547.245325 ft
+Case=Case 51
+input=﻿252
+km
+yd
+output=﻿275590.5516 yd
+Case=Case 52
+input=﻿257.25
+ft
+m
+output=﻿78.4097998808171 m
+Case=Case 53
+input=﻿262.5
+ft
+mm
+output=﻿80009.9998783848 mm
+Case=Case 54
+input=﻿267.75
+ft
+cm
+output=﻿8161.01998759525 cm
+Case=Case 55
+input=﻿761273
+ft
+mi
+output=﻿144.180492150018 mi
+Case=Case 56
+input=﻿278.25
+ft
+in
+output=﻿3338.99999151894 in
+Case=Case 57
+input=﻿9992283.5
+ft
+km
+output=﻿3045.64800617062 km
+Case=Case 58
+input=﻿288.75
+ft
+ft
+output=﻿288.75 ft
+Case=Case 59
+input=﻿294
+ft
+yd
+output=﻿98 yd
+Case=Case 60
+input=﻿299.25
+yd
+m
+output=﻿273.634199584076 m
+Case=Case 61
+input=﻿304.5
+yd
+mm
+output=﻿278434.799576779 mm
+Case=Case 62
+input=﻿309.75
+yd
+cm
+output=﻿28323.5399569482 cm
+Case=Case 63
+input=﻿88315
+yd
+mi
+output=﻿50.1789771772893 mi
+Case=Case 64
+input=﻿320.25
+yd
+in
+output=﻿11528.9999707163 in
+Case=Case 65
+input=﻿991325.5
+yd
+km
+output=﻿906.468035822169 km
+Case=Case 66
+input=﻿330.75
+yd
+ft
+output=﻿992.25 ft
+Case=Case 67
+input=﻿336
+yd
+yd
+output=﻿336 yd
