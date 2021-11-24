@@ -13,3 +13,12 @@ public class Outer {
 	}
 
 }
+
+class TestOuter1{  
+	  static int data=30;  
+	  
+	  static class Inner{  
+	   void msg(){System.out.println("data is "+data);} 
+	   static void msg1() {System.out.println("static data: "+data);}  
+	  }  
+	}  
