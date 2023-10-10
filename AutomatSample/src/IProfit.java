@@ -1,0 +1,4 @@
+
+interface IProfit {
+	double getProfit();
+}
