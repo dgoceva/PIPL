@@ -9,9 +9,9 @@ public class Main {
 //		TestInterface3.main();
 //		TestInterface4.main();
 //		TestInterfaceDefault.main();
-//		TestInterfaceStatic.main();
+		TestInterfaceStatic.main();
 //		PrivateInterface.main();
-		PrivateInterface1.main();
+//		PrivateInterface1.main();
 	}
 
 }

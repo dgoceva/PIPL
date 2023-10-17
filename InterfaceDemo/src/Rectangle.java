@@ -33,7 +33,14 @@ public class Rectangle implements IComparable {
 	@Override
 	public IComparable less(IComparable c) {
 		// TODO Auto-generated method stub
-		return null;
+		if (IComparable.isNull(c) || !(c instanceof Rectangle))
+			return null;
+		return (getArea()<(((Rectangle)c).getArea())) ? this : c;
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [a=" + a + ", b=" + b + "]";
 	}
 
 }

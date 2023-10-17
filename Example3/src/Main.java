@@ -14,7 +14,7 @@ public class Main {
 
 		System.out.println("Rec1 > Rec2: "+rect1.isLargerThan(rect2));
 		System.out.println("Rec1 > Rec3: "+rect1.isLargerThan(rect3));
-//		System.out.println("Rec1 > Tri1: "+rect1.isLargerThan(tri1));
 		System.out.println("Tri1 > Tri2: "+tri1.isLargerThan(tri2));
+//		System.out.println("Rec1 > Tri1: "+rect1.isLargerThan(tri1));
 	}
 }

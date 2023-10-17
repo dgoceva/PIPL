@@ -45,6 +45,7 @@ class Test2 extends Test1 {
 		// to class $Test1$. Java treat this method call as if the
 		// invocation happened "inside" the object created from $Test1$.
 		super.sound();
+		super.print();
 	}
 	void print() {
 		System.out.println(s);

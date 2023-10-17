@@ -23,7 +23,7 @@ class A {
 class B extends A {
 	int k = 1;
 	B() {
-		super();
+//		super();
 		System.out.println("sub: " + k);
 		System.out.println("sup: " + super.k);
 	}

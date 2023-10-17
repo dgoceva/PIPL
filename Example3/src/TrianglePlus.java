@@ -5,7 +5,7 @@ public class TrianglePlus implements Relatable {
 	private int ha;
 	
 	public double getArea() {
-		return a*ha/2;
+		return a*ha/2.;
 	}
 	
 	public TrianglePlus() {
