@@ -10,6 +10,7 @@ public class InterfaceSample {
 	private final static int SIZE = 10;
 	private Int[] arr = new Int[SIZE];
 	private Date[] arr1 = new Date[SIZE];
+	private FloatNumber[] arr2 = new FloatNumber[SIZE];
 		
 	public InterfaceSample() {
 		super();
@@ -17,6 +18,7 @@ public class InterfaceSample {
 		for (int i=0;i<arr.length;i++) {
 			arr[i] = new Int();
 			arr1[i] = new Date();
+			arr2[i] = new FloatNumber();
 		}
 	}
 
@@ -28,6 +30,9 @@ public class InterfaceSample {
 		ifs.printArr();
 		System.out.println(ifs.amax(ifs.arr));
 		System.out.println(ifs.amax(ifs.arr1));
+		System.out.println(ifs.amax(ifs.arr2));
+		FloatNumber f = new FloatNumber();
+		System.out.println(f.compareTo("100"));
 	}
 
 	public void printArr() {
@@ -35,6 +40,9 @@ public class InterfaceSample {
 			System.out.print(elem+"  ");
 		System.out.println();
 		for (Date elem:arr1)
+			System.out.print(elem+"  ");
+		System.out.println();
+		for (FloatNumber elem:arr2)
 			System.out.print(elem+"  ");
 		System.out.println();
 	}
@@ -73,3 +81,34 @@ class Int implements Comparable {
 	}
 }
 
+@SuppressWarnings("rawtypes")
+class FloatNumber implements Comparable {
+
+	private float data;
+	private Random rand = new Random();
+	
+	public FloatNumber() {
+		data = rand.nextFloat();
+	}
+	
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		if (o instanceof FloatNumber) {
+			FloatNumber f = (FloatNumber)o;
+			if (data<f.data) {
+				return -1;
+			} else if (data==f.data) {
+				return 0;
+			}
+			return 1;
+		}
+		else
+			throw new TypeNotPresentException("Not supported", null);
+	}
+	
+	@Override
+	public String toString() {
+		return ""+data;
+	}
+}

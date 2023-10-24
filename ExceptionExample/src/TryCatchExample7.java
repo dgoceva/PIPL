@@ -10,6 +10,7 @@ public class TryCatchExample7 {
 		// handling the exception  
 		catch(Exception e)  
 		{  
+			System.out.println("Division by zero");
 			// generating the exception in catch block  
 			int data2=50/0; //may throw exception   
 
