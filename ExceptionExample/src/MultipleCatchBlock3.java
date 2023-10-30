@@ -4,7 +4,7 @@ public class MultipleCatchBlock3 {
 
 		try{    
 			int a[]=new int[5];    
-//			System.out.println(a[10]);  
+			System.out.println(a[10]);  
 			a[5]=30/0;    
 			System.out.println(a[10]);  
 		}    

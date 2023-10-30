@@ -16,10 +16,10 @@ public class Main {
 //		TryCatchExample9.main();
 //		TryCatchExample10.main();
 //		MultipleCatchBlock1.main();
-		MultipleCatchBlock2.main();
+//		MultipleCatchBlock2.main();
 //		MultipleCatchBlock3.main();
 //		MultipleCatchBlock4.main();
-////		MultipleCatchBlock5.main();
+//		MultipleCatchBlock5.main();
 //		NestedTryBlock1.main();
 //		NestedTryBlock2.main();
 //		TestThrow1.main();

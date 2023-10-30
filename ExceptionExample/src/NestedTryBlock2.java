@@ -31,8 +31,8 @@ public class NestedTryBlock2 {
 		}  
 
 		// to handle ArrayIndexOutOfBoundsException   
-		catch (ArrayIndexOutOfBoundsException e4) {  
-//		catch (ArithmeticException e4) {  
+//		catch (ArrayIndexOutOfBoundsException e4) {  
+		catch (ArithmeticException e4) {  
 			System.out.println(e4);  
 			System.out.println(" outer (main) try block");  
 		}  

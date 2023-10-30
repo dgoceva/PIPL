@@ -26,17 +26,6 @@ public class ListOfNumbers {
 //
 //		out.close();
 //	}
-
-	public void writeList() throws IOException, ArrayIndexOutOfBoundsException{
-		PrintWriter out = new PrintWriter(new FileWriter("OutFile.txt"));
-
-		for (int i = 0; i < SIZE; i++) {
-			out.println("Value at: " + i + " = " + vector.elementAt(i));
-		}
-
-		out.close();
-	}
-
 	
 //	public void writeList() {
 //		PrintWriter out = null;
@@ -65,6 +54,16 @@ public class ListOfNumbers {
 //		}
 //	}
 	 
+	public void writeList() throws IOException, ArrayIndexOutOfBoundsException{
+		PrintWriter out = new PrintWriter(new FileWriter("OutFile.txt"));
+
+		for (int i = 0; i < SIZE; i++) {
+			out.println("Value at: " + i + " = " + vector.elementAt(i));
+		}
+
+		out.close();
+	}
+	
 	/**
 	 * @param args
 	 */
