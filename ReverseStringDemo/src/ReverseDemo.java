@@ -112,6 +112,24 @@ public class ReverseDemo {
 		ListIterator li = trial1.listIterator();
 		while (li.hasNext())
 			System.out.print(li.next());
+		System.out.println();
+
+		for(char ch : trial1) {
+			System.out.print(ch);
+		}
+		System.out.println();
+		
+		for(int i=0;i<trial1.size();++i) {
+//			System.out.print(trial1[i]);
+			System.out.print(trial1.get(i));
+		}
+		System.out.println();
+		
+		Object[] trial2 = trial1.toArray();
+		for(int i=0;i<trial2.length;++i) {
+			System.out.print((char)trial2[i]);
+		}
+		System.out.println();
 	}
 
 	// Java program to demonstrate conversion from

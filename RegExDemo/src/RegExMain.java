@@ -7,7 +7,7 @@ public class RegExMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try (ReadFile file = new ReadFile(
-				"D:\\Lectures\\PIK3\\Demos\\RegExDemo\\src\\PatternsDemo.txt")) {
+				"C:\\Samples\\PIPL\\RegExDemo\\src\\PatternsDemo.txt")) {
 //			matches(file);
 			System.out.println();
 			compile(file);

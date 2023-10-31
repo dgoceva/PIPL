@@ -52,18 +52,18 @@ public class string2 {
 		// strings and use $equals()$.
 		if (x.equals(y)) System.out.println("Test 10: equal!");
 		
-		System.out.println(s1==x);
-		System.out.println(s1.equals(x));
-		System.out.println(s1.isEmpty());
+		System.out.println("Test 11: "+(s1==x));
+		System.out.println("Test 12: "+s1.equals(x));
+		System.out.println("Test 13: "+s1.isEmpty());
 		s1 +=":java:my friend";
-		System.out.println(Arrays.toString(s1.split(":")));
-		System.out.println(s1.contains(":#"));
-		System.out.println(s1.substring(2));
-		System.out.println(s1.substring(3,6));
-		System.out.println(Arrays.toString(s2.getBytes()));
-		System.out.println(y.replace("h", "#"));
+		System.out.println("Test 14: "+Arrays.toString(s1.split(":")));
+		System.out.println("Test 15: "+s1.contains(":#"));
+		System.out.println("Test 16: "+s1.substring(2));
+		System.out.println("Test 17: "+s1.substring(3,6));
+		System.out.println("Test 18: "+Arrays.toString(s2.getBytes()));
+		System.out.println("Test 19: "+y.replace("h", "#"));
 		int a = Integer.parseInt("55", 10);
-		System.out.println(String.valueOf(a));
+		System.out.println("Test 20: "+String.valueOf(a));
 		System.out.println(""+a);
 	}
 

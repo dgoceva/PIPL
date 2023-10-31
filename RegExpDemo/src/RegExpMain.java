@@ -11,7 +11,7 @@ public class RegExpMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		Pattern email = Pattern.compile("^(.+)@(.+)$");
+		Pattern email = Pattern.compile("^(\\S+)@(\\S+)\\.(\\S{2,3})$");
 		String str;
 		Matcher match;
 		do {
