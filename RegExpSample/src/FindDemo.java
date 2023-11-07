@@ -12,6 +12,7 @@ public class FindDemo {
         while (matcher.find()) {
             count++;
         }
+        System.out.println(text);
         System.out.println("The word \""+searchString+"\" was found: " + count + " times");
 
     }
