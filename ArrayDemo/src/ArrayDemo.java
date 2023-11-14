@@ -10,25 +10,25 @@ public class ArrayDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] anArray = new int[10];
-	//	float[] floatArray = new float[5];
-//		double[] A = new double[6];
-//		double[] B = new double[7];
-//		
-//		inputArray(A);
-//		inputArray(B);
-//		
-//		double[] C = concatenateArrays(A,B);
-//		
-//		output(A);
-//		output(B);
-//		output(C);
+		float[] floatArray = new float[5];
+		double[] A = new double[6];
+		double[] B = new double[7];
 		
-//		double[] data = {1,-2,-3,44,15,-9,-7,21};
-//		
-//		System.out.println(maxElement(data));
-//		System.out.println("Sum is "+sumElements(data,maxElement(data)));
+		inputArray(A);
+		inputArray(B);
 		
-	/*	
+		double[] C = concatenateArrays(A,B);
+		
+		output(A);
+		output(B);
+		output(C);
+		
+		double[] data = {1,-2,-3,44,15,-9,-7,21};
+		
+		System.out.println(maxElement(data));
+		System.out.println("Sum is "+sumElements(data,maxElement(data)));
+		
+		
 		input(anArray);
 		output(anArray,5,anArray.length);
 		int len = extendArray(anArray);
@@ -40,7 +40,7 @@ public class ArrayDemo {
 		inputFloatArray(floatArray);
 		output(floatArray);
 		System.out.println("The sum is "+sumArray(floatArray));
-		*/
+		
 		
 		ArrayList<Double> array = new ArrayList<Double>();
 		try {
@@ -237,8 +237,3 @@ public class ArrayDemo {
 	}
 }
 
-/*
- * for (инициализация;условие за край;стъпка) {
- * тяло
- * }
- */
