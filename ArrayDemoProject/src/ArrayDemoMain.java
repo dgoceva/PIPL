@@ -11,8 +11,8 @@ public class ArrayDemoMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayDemoMain mainObj = new ArrayDemoMain();
-//		mainObj.inputData();
-//		mainObj.outData();
+		mainObj.inputData();
+		mainObj.outData();
 //		inputData();
 		mainObj.data.clear();
 		mainObj.inputDataRandom();
@@ -23,6 +23,7 @@ public class ArrayDemoMain {
 		mainObj.outData();
 		mainObj.data.set(2, 1.1);
 		mainObj.outData();
+		System.out.println(mainObj.data.contains(5.));
 
 	}
 

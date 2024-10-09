@@ -1,6 +1,8 @@
 // more about array of arrays
 // show different ways of declaring and creating
 
+import java.util.Arrays;
+
 public class aoa1 {
 
 	/**
@@ -138,8 +140,10 @@ public class aoa1 {
 		// Main Class		Object Class
 		//
 		//--------------------------------------------------------------------------------
-		
+
 		System.out.println(x);	System.out.println(y);	System.out.println(z);
+		System.out.println(Arrays.toString(z));
+		System.out.println(Arrays.deepToString(z));
 	}
 
 }

@@ -19,8 +19,8 @@ public class defValue {
 		// anything yet. In  a box diagram, this will be represented by
 		// '?' rather than null or 0
 		
-		// System.out.println("Print statement#1 "+ n);
-		// System.out.println("Print statement#2 "+ s);
+//		 System.out.println("Print statement#1 "+ n);
+//		 System.out.println("Print statement#2 "+ s);
 		
 		// This print statement is legal but observe what it prints
 		
@@ -31,7 +31,7 @@ public class defValue {
 		Lotsavar obj1,obj2;
 		 
 		// obj1, obj2 not yet initialized, so you can't do this...
-		// System.out.println("Print statement#4 "+obj1.num);
+//		 System.out.println("Print statement#4 "+obj1.num);
 		
 		// So initialize them first
 		obj1 = new Lotsavar(); obj2 = new Lotsavar();
@@ -61,7 +61,7 @@ public class defValue {
 		System.out.println("Print statement#17 "+obj1.cls.name);
 		System.out.println("Print statement#18 "+obj2.name);
 		
-		// System.out.println("Print statement#19 "+obj2.cls.val);
+//		 System.out.println("Print statement#19 "+obj2.cls.val);
 		// Since obj2.cls is still null, a reference such as above
 		// leads to runtime error:
 		// Exception in thread "main"java.lang.NullPointerException

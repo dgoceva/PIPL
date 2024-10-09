@@ -1,5 +1,7 @@
 // $clone$
 
+import java.util.Arrays;
+
 public class object4 {
 
 	/**
@@ -13,12 +15,21 @@ public class object4 {
 		A a2 = (A) (a1.clone());
 		System.out.println(a1);
 		System.out.println(a2);
+		System.out.println(a1==a2);
 		if (a2.equals(a1))  System.out.println("Hooray!");
 		else System.out.println("Ugh!");
 		
 		// works for array, too!
+
+
+
 		char[] c = "hello".toCharArray();
 		char[] d = (char[]) c.clone();
+		System.out.println(Arrays.toString(c));
+		System.out.println(c);
+		System.out.println(""+c);
+		System.out.println(""+d);
+		System.out.println(c.equals(d));
 	}
 
 }
