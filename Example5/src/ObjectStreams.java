@@ -3,7 +3,7 @@ import java.math.BigDecimal;
 import java.util.Calendar;
 
 public class ObjectStreams {
-    static final String dataFile = "invoicedata";
+    static final String dataFile = "invoicedata_object";
 
     static final BigDecimal[] prices = { 
         new BigDecimal("19.99"), 

@@ -11,20 +11,22 @@ public class static3 {
 	int			test3 = 3;
 	final int	test4 = 4;
 	static int	test5 = 5;
+	final static int test6 = 6;
 	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int test6 = 6;
+		int test7 = 7;
 		
 		System.out.println(Data.test1); // test1 is static, so main can access
-		// System.out.println(test2); // test2 not static, so main can't access
-		// System.out.println(test3); // test3 not static, so main can't access
-		// System.out.println(test4); // test4 not static, so main can't access
+//		 System.out.println(test2); // test2 not static, so main can't access
+//		 System.out.println(test3); // test3 not static, so main can't access
+//		 System.out.println(test4); // test4 not static, so main can't access
 		System.out.println(test5); // test5 is static, so main can access
-		System.out.println(test6); // test6 is local, so main can access
+		System.out.println(test6); // test6 is static, so main can access
+		System.out.println(test7); // test7 is local, so main can access
 		
 	}
 

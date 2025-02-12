@@ -1,5 +1,6 @@
 // ragged arrays
 // that is, an array of arrays, where each "sub-array" has different sizes
+import java.util.Arrays;
 
 public class array_ragged0 {
 
@@ -33,7 +34,7 @@ public class array_ragged0 {
 		// connected to A[0]
 		
 		// Try accessing A[0][2] anyway:
-		// System.out.println(A[0][2]);
+//		 System.out.println(A[0][2]);
 		// you will see Java.lang.ArrayIndexOutOfBoundException: 2
 		//		at array_ragged0.main(Compiled Code)
 		
@@ -65,11 +66,14 @@ public class array_ragged0 {
 		for (int i=0; i < B.length; i++) {
 			// loop from 0 to length of each sub-array -->
 			// --> think of B[i].length as length of each row
+
 			for (int j=0; j< B[i].length; j++)
 				System.out.print(B[i][j] + " ");
 			System.out.println();
 		}
-		
+		System.out.println(Arrays.toString(x));
+		System.out.println(Arrays.toString(A));
+		System.out.println(Arrays.deepToString(A));
 	}
 
 }

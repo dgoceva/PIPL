@@ -4,7 +4,7 @@ public class TestInterfaceDefault {
 		Drawable1 d = new Square();
 		d.draw();
 		d.msg();
-//		 Drawable1.msg();
+//		Drawable1.msg();
 		d = new Rectangle1();
 		d.draw();
 		d.msg();

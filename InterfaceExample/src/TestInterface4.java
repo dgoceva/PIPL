@@ -16,8 +16,8 @@ public class TestInterface4 implements Showable1{
 	public static void main(){  
 		TestInterface4 obj = new TestInterface4();  
 		obj.print();  
-		obj.show();  
-	}  
+		obj.show();
+	}
 
 }
 

@@ -64,10 +64,8 @@ public class DataBindingWrite {
 		}
 }
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-//		jsonStudent();
+	public static void main() {
+		jsonStudent();
 		jsonMap();
 	}
 

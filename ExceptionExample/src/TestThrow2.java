@@ -9,7 +9,7 @@ public class TestThrow2 {
 		BufferedReader fileInput = new BufferedReader(file);  
 
 
-		throw new FileNotFoundException();  
+//		throw new FileNotFoundException();  
 
 	}  
 	//main method  

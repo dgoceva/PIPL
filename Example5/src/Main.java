@@ -17,8 +17,8 @@ public class Main {
 //		Root.RootMain();
 //		Root2.Root2Main();
 //		DataStreams.DataStreamsMain();	
-//		ObjectStreams.ObjectStreamsMain();
-		Password.PasswordMain();
+		ObjectStreams.ObjectStreamsMain();
+//		Password.PasswordMain();
 	}
 
 }

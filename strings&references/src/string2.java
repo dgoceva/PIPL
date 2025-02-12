@@ -15,6 +15,8 @@ public class string2 {
 		// so, are $s1$ and $s2$ equal?
 		if (s1 == s2) System.out.println("Test 1: equal!");
 		else System.out.println("Test 1: not equal!");
+		System.out.println(System.identityHashCode(s1));
+		System.out.println(System.identityHashCode(s2));
 		
 		// No! $s1$ and $s2$ do NOT refer to the same object!
 		// Only the contents of the objects referred to by
@@ -51,8 +53,12 @@ public class string2 {
 		// using $new String(...)$. To be safe, you should avoid $==$ with
 		// strings and use $equals()$.
 		if (x.equals(y)) System.out.println("Test 10: equal!");
+		System.out.println(System.identityHashCode(x));
+		System.out.println(System.identityHashCode(y));
 		
 		System.out.println("Test 11: "+(s1==x));
+		System.out.println(System.identityHashCode(x));
+		System.out.println(System.identityHashCode(s1));
 		System.out.println("Test 12: "+s1.equals(x));
 		System.out.println("Test 13: "+s1.isEmpty());
 		s1 +=":java:my friend";

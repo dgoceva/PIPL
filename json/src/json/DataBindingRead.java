@@ -64,11 +64,9 @@ public class DataBindingRead {
 			e.printStackTrace();
 		}
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main() {
 		jsonStudent();
-//		jsonMap();
+		jsonMap();
 	}
 
 }

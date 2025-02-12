@@ -21,8 +21,10 @@ public class Main {
 		System.out.println(count);
 		
 		Random random = new Random();
-		random.ints().limit(10).forEach(System.out::println);
-		random.ints().limit(10).sorted().forEach(System.out::println);
+		random.ints().limit(4).forEach(System.out::println);
+		System.out.println();
+		random.ints().limit(5).sorted().forEach(System.out::println);
+		System.out.println();
 		
 		List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
 		//get list of unique squares

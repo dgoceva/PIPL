@@ -28,7 +28,7 @@ public class ReverseDemo {
 			ch = str.charAt(i); // extracts each character
 			nstr = ch + nstr; // adds each character in front of the existing string
 		}
-		System.out.println("Reversed word: " + nstr);
+		System.out.println("1: Reversed word: " + nstr);
 	}
 
 	// Java program to ReverseString using ByteArray.
@@ -46,7 +46,7 @@ public class ReverseDemo {
 		for (int i = 0; i < strAsByteArray.length; i++)
 			result[i] = strAsByteArray[strAsByteArray.length - i - 1];
 
-		System.out.println(new String(result));
+		System.out.println("2: "+new String(result));
 	}
 
 	// Java program to ReverseString using StringBuilder
@@ -62,7 +62,7 @@ public class ReverseDemo {
 		input1.reverse();
 
 		// print reversed String
-		System.out.println(input1);
+		System.out.println("3: "+input1);
 	}
 
 	// Java program to Reverse a String by
@@ -75,8 +75,10 @@ public class ReverseDemo {
 		// by using toCharArray
 		char[] try1 = input.toCharArray();
 
+		System.out.print("4: ");
 		for (int i = try1.length - 1; i >= 0; i--)
 			System.out.print(try1[i]);
+		System.out.println();
 	}
 
 	// Java program to Reverse a String using swapping
@@ -94,6 +96,7 @@ public class ReverseDemo {
 			temparray[right] = temp;
 		}
 
+		System.out.print("5: ");
 		for (char c : temparray)
 			System.out.print(c);
 		System.out.println();
@@ -110,6 +113,7 @@ public class ReverseDemo {
 
 		Collections.reverse(trial1);
 		ListIterator li = trial1.listIterator();
+		System.out.print("6: ");
 		while (li.hasNext())
 			System.out.print(li.next());
 		System.out.println();
@@ -141,6 +145,6 @@ public class ReverseDemo {
 		StringBuffer sbr = new StringBuffer(str);
 		// To reverse the string
 		sbr.reverse();
-		System.out.println(sbr);
+		System.out.println("7: "+sbr);
 	}
 }

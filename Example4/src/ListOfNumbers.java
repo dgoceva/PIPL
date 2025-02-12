@@ -68,6 +68,7 @@ public class ListOfNumbers {
 	 * @param args
 	 */
 	public static void main(String[] args) throws IOException {
+//	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
 		ListOfNumbers lst = new ListOfNumbers();
 		lst.writeList();

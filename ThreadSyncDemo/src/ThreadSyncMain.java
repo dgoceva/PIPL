@@ -43,7 +43,7 @@ public class ThreadSyncMain {
 		ExecutorService executor = Executors.newFixedThreadPool(2);
 
 		IntStream.range(0, 100000)
-			.forEach(i -> executor.submit(this::incrementSync));
+			.forEach(i -> executor.submit(this::incrementSync1));
 
 		stop(executor);
 

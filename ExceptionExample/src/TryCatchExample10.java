@@ -8,7 +8,7 @@ public class TryCatchExample10 {
 
 		PrintWriter pw;  
 		try {  
-			pw = new PrintWriter("jtp1.txt"); //may throw exception   
+			pw = new PrintWriter("jtp3.txt"); //may throw exception   
 			pw.println("saved");  
 		}  
 		// providing the checked exception handler  

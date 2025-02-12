@@ -16,13 +16,13 @@ public class strings {
 		System.out.println("1: "+S1.indexOf('l'));
 		System.out.println("2: "+S1.indexOf('x'));
 		
-		// convert char array into string
+		// convert string into char array
 		System.out.println("3: "+S1.toCharArray());
 		System.out.println("3: "+Arrays.toString(S1.toCharArray()));
 		
 		// create string using char array
 		System.out.println("4: "+new String(c1));
-		System.out.println("4: "+new String(S1));
+		System.out.println("41: "+new String(S1));
 
 		// find char at index in a string
 		System.out.println("5: "+S1.charAt(0));
@@ -44,7 +44,7 @@ public class strings {
 			char c = s.charAt(i);
 			if ('a' <= c && c <= 'z')
 				c = (char)(c+'A'-'a');
-//			s[i] = (char)(c+'A'-'a');
+//				s[i] = (char)(c+'A'-'a');
 			u+=c;
 		}
 		return u;

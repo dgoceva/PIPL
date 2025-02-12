@@ -5,7 +5,7 @@ import zip.unzip.ZipUnzip;
 public class ZipUnzipMain {
 
     private static final String OUTPUT_ZIP_FILE = "Folder.zip";
-    private static final String SOURCE_FOLDER = "C:\\PIK3\\ZipUnzipDemo"; // SourceFolder path
+    private static final String SOURCE_FOLDER = "C:\\Lectures"; // SourceFolder path
 
 	   public static void main(String[] args) {
 	        ZipUnzip appZip = new ZipUnzip();

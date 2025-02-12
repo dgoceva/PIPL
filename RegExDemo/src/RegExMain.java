@@ -8,7 +8,7 @@ public class RegExMain {
 		// TODO Auto-generated method stub
 		try (ReadFile file = new ReadFile(
 				"C:\\Samples\\PIPL\\RegExDemo\\src\\PatternsDemo.txt")) {
-//			matches(file);
+			matches(file);
 			System.out.println();
 			compile(file);
 		} catch (IOException e) {
@@ -21,19 +21,29 @@ public class RegExMain {
 	}
 	
 	private static void matches(ReadFile file) {
-		String pattern = ".*Example.*";
+		String pattern = ".*EXample.*";
+		boolean find = false;
 		for (String line : file.getText()) {
-			if (Pattern.matches(pattern, line))
+			if (Pattern.matches(pattern, line)) {
 				System.out.println(line);
+				find = true;
+			}
+		}
+		if (!find) {
+			System.out.println("No such pattern...");
 		}
 	}
 	private static void compile(ReadFile file) {
 		Pattern pattern = Pattern.compile(".*EXample.*", Pattern.CASE_INSENSITIVE);
+		int count = 0;
 		for (String line : file.getText()) {
 			Matcher matcher = pattern.matcher(line);
-			if (matcher.matches())
+			if (matcher.matches()) {
 				System.out.println(line);
-		}		
+				count++;
+			}
+		}
+		System.out.println("The pattern is found "+count+" times");
 	}
 
 }
