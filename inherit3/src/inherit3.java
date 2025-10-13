@@ -31,9 +31,13 @@ public class inherit3 {
 		// TODO Auto-generated method stub
 
 		Apple A = new Apple();	// create an $Apple$ object
+		Fruit A1 = new Apple();
 		// output: 1
 		System.out.println(A.k);
 		// output: 2
+		
+		// output: 1
+		System.out.println(A1.k);
 	}
 
 }
