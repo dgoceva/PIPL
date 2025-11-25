@@ -20,7 +20,7 @@ public class Main {
 //		MultipleCatchBlock3.main();
 //		MultipleCatchBlock4.main();
 //		MultipleCatchBlock5.main();
-//		NestedTryBlock1.main();
+		NestedTryBlock1.main();
 //		NestedTryBlock2.main();
 //		TestThrow1.main();
 //		TestThrow2.main();
@@ -28,14 +28,16 @@ public class Main {
 //		TestFinallyBlock.main();
 //		TestFinallyBlock1.main();
 //		TestFinallyBlock2.main();
-		try {
+//		TryWithResource.main();
+//		ConstructorException.main();
+//		try {
 //			FinalVariable.main();
 //			FinalVariable7.main();
-			FinalVariable9.main();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//			FinalVariable9.main();
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 	}
 
 }

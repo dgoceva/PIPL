@@ -7,11 +7,13 @@ public class PrivateInterface1 implements Sayable1 {
 		System.out.println("static From Private Interface");
 	}
 	public static void main() {  
-		Sayable1 s = new PrivateInterface1();  
+		Sayable1 s = new PrivateInterface1(); 
+		PrivateInterface1 p = new PrivateInterface1();
 		s.say(); 
 //		Sayable1.sayPolitely();
 		sayPolitely();
 		((PrivateInterface1)s).saySomething();
+		p.saySomething();
 	}  
 
 }

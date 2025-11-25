@@ -12,5 +12,6 @@ public class TestLinkedHashSet {
 		while(itr.hasNext()){  
 			System.out.println(itr.next());  
 		}  
+		System.out.println(set);
 	}  
 }

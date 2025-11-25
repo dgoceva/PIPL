@@ -13,6 +13,7 @@ public class TestTreeSet {
 		Iterator<String> itr=set.iterator();  
 		while(itr.hasNext()){  
 			System.out.println(itr.next());  
-		}  
+		} 
+		System.out.println(set);
 	}  
 }

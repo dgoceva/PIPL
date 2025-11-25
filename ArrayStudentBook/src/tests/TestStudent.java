@@ -34,12 +34,12 @@ public class TestStudent {
 		System.out.println();
 		
 		System.out.println("Starting hash... ");
-//		start = new Date().getTime();
-		start = System.nanoTime();
+		start = new Date().getTime();
+//		start = System.nanoTime();
 		hashBook.findAllStudent("Daniela");
-//		end = new Date().getTime();
-		end = System.nanoTime();
-//		System.out.println("Finished hash... in " + (end - start) + " millis");
-		System.out.println("Finished hash... in " + (end - start) + " nanos");
+		end = new Date().getTime();
+//		end = System.nanoTime();
+		System.out.println("Finished hash... in " + (end - start) + " millis");
+//		System.out.println("Finished hash... in " + (end - start) + " nanos");
 	}
 }

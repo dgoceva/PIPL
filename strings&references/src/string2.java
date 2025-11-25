@@ -69,8 +69,10 @@ public class string2 {
 		System.out.println("Test 18: "+Arrays.toString(s2.getBytes()));
 		System.out.println("Test 19: "+y.replace("h", "#"));
 		int a = Integer.parseInt("55", 10);
+		int b = Integer.valueOf("44");
 		System.out.println("Test 20: "+String.valueOf(a));
 		System.out.println(""+a);
+		System.out.println("Test 21: "+String.valueOf(b));
 	}
 
 }

@@ -3,7 +3,8 @@ public class TryCatchExample4 {
 	public static void main() {  
 		try  
 		{  
-			int data=50/3; //may throw exception   
+//			int data=50/3; //may throw exception   
+			int data=50/0; //may throw exception   
 		}  
 		// handling the exception by using Exception class      
 		catch(Exception e)  

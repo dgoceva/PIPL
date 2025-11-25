@@ -21,7 +21,7 @@ public class RegExMain {
 	}
 	
 	private static void matches(ReadFile file) {
-		String pattern = ".*EXample.*";
+		String pattern = ".*Example.*";
 		boolean find = false;
 		for (String line : file.getText()) {
 			if (Pattern.matches(pattern, line)) {

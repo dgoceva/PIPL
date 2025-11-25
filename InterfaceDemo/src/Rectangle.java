@@ -38,9 +38,9 @@ public class Rectangle implements IComparable {
 		return (getArea()<(((Rectangle)c).getArea())) ? this : c;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Rectangle [a=" + a + ", b=" + b + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Rectangle [a=" + a + ", b=" + b + "]";
+	}
 
 }

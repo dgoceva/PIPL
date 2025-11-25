@@ -22,6 +22,7 @@ public class static3 {
 		
 		System.out.println(Data.test1); // test1 is static, so main can access
 //		 System.out.println(test2); // test2 not static, so main can't access
+//		 System.out.println(Data.test2); // test2 not static, so main can't access
 //		 System.out.println(test3); // test3 not static, so main can't access
 //		 System.out.println(test4); // test4 not static, so main can't access
 		System.out.println(test5); // test5 is static, so main can access
